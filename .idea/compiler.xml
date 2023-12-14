@@ -12,7 +12,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="dolphinscheduler" target="1.8" />
-      <module name="dolphinscheduler-bom" target="1.8" />
+      <module name="dolphinscheduler-bom" target="8" />
       <module name="dolphinscheduler-common" target="8" />
       <module name="dolphinscheduler-master" target="8" />
     </bytecodeTargetLevel>

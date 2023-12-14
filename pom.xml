@@ -9,7 +9,7 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <name>${project.artifactId}</name>
-    <description>梳理包逻辑</description>
+    <description>海豚调度系统逻辑梳理</description>
     <modules>
         <module>dolphinscheduler-bom</module>
         <module>dolphinscheduler-common</module>

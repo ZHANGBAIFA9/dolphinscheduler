@@ -16,4 +16,22 @@
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.apache</groupId>
+                <artifactId>dolphinscheduler-bom</artifactId>
+                <version>${project.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.afiab</groupId>
+            <artifactId>dolphinscheduler-common</artifactId>
+        </dependency>
+    </dependencies>
 </project>

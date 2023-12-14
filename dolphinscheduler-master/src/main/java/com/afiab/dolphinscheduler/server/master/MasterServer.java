@@ -8,7 +8,7 @@ package com.afiab.dolphinscheduler.server.master;
  */
 public class MasterServer {
     public static void main(String[] args) {
-        Thread.currentThread().setName(Constants.THREAD_NAME_MASTER_SERVER);
-        SpringApplication.run(MasterServer.class);
+//        Thread.currentThread().setName(Constants.THREAD_NAME_MASTER_SERVER);
+//        SpringApplication.run(MasterServer.class);
     }
 }

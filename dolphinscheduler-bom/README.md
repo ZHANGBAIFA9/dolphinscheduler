@@ -1,5 +1,6 @@
 # 介绍
 
+其他模块使用引入依赖管理模块
 ```xml
 <dependencyManagement>
     <dependencies>

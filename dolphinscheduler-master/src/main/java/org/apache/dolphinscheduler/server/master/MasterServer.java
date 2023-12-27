@@ -1,4 +1,4 @@
-package com.afiab.dolphinscheduler.server.master;
+package org.apache.dolphinscheduler.server.master;
 
 import lombok.extern.slf4j.Slf4j;
 import org.apache.dolphinscheduler.common.constants.Constants;
@@ -14,7 +14,7 @@ import org.springframework.context.annotation.ComponentScan;
  * @Description:
  */
 @SpringBootApplication
-@ComponentScan("com.afiab.dolphinscheduler")
+@ComponentScan("org.apache.dolphinscheduler")
 //@EnableTransactionManagement
 @EnableCaching
 @Slf4j
